@@ -1,0 +1,13 @@
+In the default daemon configuration on Windows, the docker client must be run elevated to connect.
+
+We can switch the Docker daemon as an elevated user in order to run the docker daemon in the Windows professional:
+
+Run below command with Windows Powershell as administrator:
+
+Run the PowerShell command: -
+& 'C:\Program Files\Docker\Docker\DockerCli.exe' -SwitchDaemon
+
+OR can run the below command on CMD as administrator:
+
+Run the CMD command: -
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
